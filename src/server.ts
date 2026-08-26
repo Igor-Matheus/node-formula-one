@@ -1,6 +1,12 @@
 import fastify from "fastify";
+import cors from "@fastify/cors";
 
 const server = fastify({ logger: true });
+
+//everyone can consume this API
+server.register(cors, {
+  origin: "*",
+});
 
 const teams = [
   { id: 1, name: "McLaren", base: "Woking, United Kingdom" },
