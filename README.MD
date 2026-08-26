@@ -1,9 +1,9 @@
 <div align="center">
 
   <img src="./.github/assets/formula-1.png" alt="Logo" height="200">
-  <h1 align="center"><strong>Minimal API - Formula One</strong></h1>
-  <p align="center">
-	  Don't start a new Node project from zero!<br> Use this simple <b>Nodejs</b> boilerplate with pre-configured <b>Typescript</b> in a modern way.
+  <h1 align="center"><strong>Formula One - API</strong></h1>
+  <p>
+	  This API provides information about all Formula 1 teams and drivers, allowing them to be retrieved by ID and/or name.
   </p>
 
 </div>
@@ -27,7 +27,9 @@ This code source was developed with the following items:
 - [typescript][typescript-npm] - Superset for application scale JavaScript development
 - [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
 - [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
-- [@types/node][@types/node-npm] - type definitions for node
+- [@types/node][@types/node-npm] - Type definitions for node
+- [fastify][fastify-npm] - Fast and low-overhead web framework for Node.js
+- [@fastify/cors][fastify/cors-npm] - Fastify plugin for enabling Cross-Origin Resource Sharing (CORS)
 
 ### 📄 Files
 
@@ -44,16 +46,14 @@ This code source was developed with the following items:
 
 # 👨‍💻 How To Use
 
-click in **[Use this template]** OR
-
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) + [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) and [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/felipeAguiarCode/node-blue-boilerplate
+$ git clone https://github.com/Igor-Matheus/node-formula-one
 
 # Go into the repository
-$ cd node-blue-boilerplate
+$ cd node-formula-one
 
 # Install dependencies
 $ npm install
@@ -61,13 +61,9 @@ $ npm install
 
 ## Author
 
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                            [Linkedin](www.linkedin.com/in/felipe-aguiar-exe/)                                             |
-
-# Credits
-
-icons by [Pino Lamanna][dribble-icon]
+| [<img src="https://avatars.githubusercontent.com/u/72845501?v=4&size=64"><br><sub>Igor Brito</sub>](https://github.com/Igor-Matheus) |
+| :----------------------------------------------------------------------------------------------------------------------------------: |
+|                                     [Linkedin](https://www.linkedin.com/in/igor-matheus-brito/)                                      |
 
 [typescript]: https://www.typescriptlang.org/
 [typescript-5-4]: https://www.typescriptlang.org/
@@ -79,3 +75,5 @@ icons by [Pino Lamanna][dribble-icon]
 [tsx-npm]: https://www.npmjs.com/package/tsx
 [tsup-npm]: https://www.npmjs.com/package/tsup
 [@types/node-npm]: https://www.npmjs.com/package/@types/node
+[fastify-npm]: https://www.npmjs.com/package/fastify
+[@fastify/cors-npm]: https://www.npmjs.com/package/@fastify/cors
