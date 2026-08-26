@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./.github/assets/formula-1.png" alt="Logo" height="200">
+  <img src="./.github/assets/formula-1.png" alt="Logo" height="300">
   <h1 align="center"><strong>Formula One - API</strong></h1>
   <p>
 	  This API provides information about all Formula 1 teams and drivers, allowing them to be retrieved by ID and/or name.
@@ -29,7 +29,7 @@ This code source was developed with the following items:
 - [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
 - [@types/node][@types/node-npm] - Type definitions for node
 - [fastify][fastify-npm] - Fast and low-overhead web framework for Node.js
-- [@fastify/cors][fastify/cors-npm] - Fastify plugin for enabling Cross-Origin Resource Sharing (CORS)
+- [@fastify/cors][@fastify/cors-npm] - Fastify plugin for enabling Cross-Origin Resource Sharing (CORS)
 
 ### 📄 Files
 
