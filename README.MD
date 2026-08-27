@@ -3,7 +3,7 @@
   <img src="./.github/assets/formula-1.png" alt="Logo" height="300">
   <h1 align="center"><strong>Formula One - API</strong></h1>
   <p>
-	  This API provides information about all Formula 1 teams and drivers, allowing them to be retrieved by ID and/or name.
+	  This API provides information about all Formula 1 teams and drivers, allowing them to be retrieved all at once, or individually, by ID.
   </p>
 
 </div>
